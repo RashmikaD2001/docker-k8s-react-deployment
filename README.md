@@ -1,8 +1,13 @@
-# React + Vite
+# docker-k8s-react-deployment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based web app that is containerized using Docker and deployed locally using Kubernetes (Minikube).
 
-Currently, two official plugins are available:
+## Features
+- React-based UI
+- Docker containerization
+- Kubernetes (Minikube) deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites to run
+1. **Minikube**: [Installation Guide](https://minikube.sigs.k8s.io/docs/start/)
+2. **Docker**: [Installation Guide](https://docs.docker.com/get-docker/)
+3. **Kubectl**: [Installation Guide](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
